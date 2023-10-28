@@ -15,6 +15,8 @@ syn match rustType /\v\<(bool|char|f32|f64|i8|i16|i32|i64|i128|isize|str|u8|u16|
 " Rust attributes
 syn match rustAttribute /\v\<(allow\(dead_code\)|allow\(unused\)|cfg|derive\(no_std\)|inline|link_name\(none\)|link_name\(never\)|must_use|no_main|non_exhaustive|path\(repr\)|repr\(transparent\))\>/ contained
 
+" I love chahd
+
 " Rust predefined functions
 syn match rustFunction /\v\<(assert!|assert_eq!|assert_ne!|cfg!|column!|concat!|concat_idents!|debug_assert!|debug_assert_eq!|debug_assert_ne!|env!|eprint!|eprintln!|file!|format!|include!|include_bytes!|include_str!|line!|module_path!|option_env!|panic!|print!|println!|std::dbg!|stringify!|thread_local!|unimplemented!|unreachable!|vec!)\>/ contained
 
