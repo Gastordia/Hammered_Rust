@@ -31,14 +31,19 @@ This Vim plugin provides enhanced syntax highlighting for Rust code
    $ git clone <Gastordia/Hammered_Rust>
    ```
 
-   2. After cloning the repository, you will typically have a directory containing the plugin's files. \n
-      Manually copy these files to the appropriate directories in your Vim configuration. \n
-      In this case, you need to copy the rust_syntax.vim file to ~/.vim/syntax/.\n
-      The activate the Plugin by adding the following line to your  ~/.vimrc:\n
+   2. After cloning the repository, you will typically have a directory containing the plugin's files. 
+   
+      Manually copy these files to the appropriate directories in your Vim configuration. 
+      
+      In this case, you need to copy the rust_syntax.vim file to ~/.vim/syntax/.
+      
+      The activate the Plugin by adding the following line to your  ~/.vimrc:
+      
       ```vim
       autocmd BufNewFile,BufRead *.rs set filetype=rust
       ```
-      \n
+
+      
    3.restart vim
   
   
