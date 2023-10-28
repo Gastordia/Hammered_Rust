@@ -44,6 +44,6 @@ This Vim plugin provides enhanced syntax highlighting for Rust code
       ```
 
       
-   3.restart vim
+      3.restart vim
   
   
