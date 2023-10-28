@@ -1,4 +1,5 @@
 " Hammered_rust.vim
+
 if exists("b:current_syntax")
   finish
 endif
