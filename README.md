@@ -18,9 +18,12 @@ This Vim plugin provides enhanced syntax highlighting for Rust code
    call plug#end()
    ```
 
-  Save your ~/.vimrc and open Vim. Run the following command to install the plugins specified in your ~/.vimrc:
-  :PlugInstall
-  then restart vim
+2. Save your ~/.vimrc and open Vim.
+3. Run the following command to install the plugins specified in your ~/.vimrc:
+   ```vim
+   :PlugInstall
+   ```
+ 4. Restart vim
 ### Manual Installation
    Clone the GitHub repository for this Rust syntax highlighting plugin to your local machine. You can use the git clone command to do this:
    git clone <Gastordia/Hammered_Rust>
