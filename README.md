@@ -8,14 +8,14 @@ This Vim plugin provides enhanced syntax highlighting for Rust code
 
 1. **Install Vim-Plug:**
    Add the following lines to your ~/.vimrc to configure Vim-Plug and specify the plugins you want to use.
-   '''
+   '''vim
    " Specify where plugins will be installed (optional)
    call plug#begin('~/.vim/plugged')
 
    Plug 'Gastordia/Hammered_Rust'
 
    call plug#end()
-   '''
+   
   Save your ~/.vimrc and open Vim. Run the following command to install the plugins specified in your ~/.vimrc:
   :PlugInstall
   then restart vim
